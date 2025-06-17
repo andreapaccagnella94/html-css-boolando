@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* #region debug */
+.debug body {
+    background-color: red;
+}
+
+.debug .card {
+    width: 450px;
+    height: 700px;
+    background-color: blueviolet;
+    margin: 1rem;
+}
+
+.debug footer {
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+
+/* #endregion debug */
+
+
+/* #region utility */
+
+.container {
+    max-width: 1380px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+/* #endregion utility */
+
+
+/* #region header */
+
+header {
+    height: 70px;
+    background-color: #ff6900;
+}
+
+
+/* #endregion header */
+
+
+/* #region card */
+
+
+
+/* #endregion card */
