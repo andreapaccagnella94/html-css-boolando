@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+section {
+    margin-top: 4rem;
+}
 
 /* #region debug */
 .debug body {
@@ -17,7 +20,7 @@
 
 .debug .card {
     width: 450px;
-    height: 700px;
+    height: 710px;
     background-color: blueviolet;
     margin: 1rem;
 }
@@ -58,15 +61,14 @@ header {
     padding: 10px 0;
 }
 
-header ul,
-nav ul {
+header ul {
     list-style: none;
     display: flex;
     gap: 0.5rem;
 }
 
 header i,
-nav a {
+a {
     text-decoration: none;
     color: white;
 }
@@ -86,9 +88,69 @@ header img {
 
 /* #region card */
 
-main .d-flex {
+main section>.d-flex {
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
 }
 
+.card {
+    position: relative;
+}
+
+.card img {
+    max-width: 100%;
+    width: 450px;
+}
+
+.card figcaption {
+    display: flex;
+    flex-direction: column;
+}
+
+.card .brand {
+    color: bisque;
+}
+
+.card .dress-description {
+    text-transform: uppercase;
+}
+
+.card .price {
+    color: red;
+}
+
+.card .badge-favorites {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    background-color: white;
+    color: black;
+    padding: 0.25rem;
+}
+
+.card .badge-bottom {
+    gap: 0.5rem;
+    position: absolute;
+    bottom: 80px;
+}
+
+.card .badge-discount {
+    background-color: red;
+    color: white;
+    padding: 0.25rem 0.5rem;
+}
+
+.card .badge-sostenibilità {
+    background-color: green;
+    color: white;
+    padding: 0.25rem 0.5rem;
+}
 
 /* #endregion card */
+
+
+/* #region footer */
+
+
+/* #endregion footer */
