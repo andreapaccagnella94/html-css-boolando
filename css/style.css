@@ -47,6 +47,10 @@
 header {
     height: 70px;
     background-color: #ff6900;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
 }
 
 
@@ -55,6 +59,9 @@ header {
 
 /* #region card */
 
+main .d-flex {
+    flex-wrap: wrap;
+}
 
 
 /* #endregion card */
