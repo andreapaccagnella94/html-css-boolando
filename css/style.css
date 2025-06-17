@@ -7,8 +7,13 @@
 
 /* #region debug */
 .debug body {
-    background-color: red;
+    background-color: rgb(0, 26, 255);
 }
+
+.debug * {
+    border: 1px dashed red;
+}
+
 
 .debug .card {
     width: 450px;
@@ -30,8 +35,7 @@
 /* #region utility */
 
 .container {
-    max-width: 1380px;
-    width: 80%;
+    max-width: 1500px;
     margin: 0 auto;
 }
 
@@ -51,6 +55,29 @@ header {
     top: 0;
     left: 0;
     z-index: 100;
+    padding: 10px 0;
+}
+
+header ul,
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 0.5rem;
+}
+
+header i,
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+header .container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    max-height: 40px;
 }
 
 
